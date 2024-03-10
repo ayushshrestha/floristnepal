@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
+
+@import 'vendor/bootstrap/bootstrap';
+@import 'vendor/slick/slick';
+@import 'vendor/animate.min';
+@import 'vendor/jquery.mCustomScrollbar';
+
+@import 'vendor/meanmenu.min';
+// @import 'vendor/fontawesome/fontawesome.min';
+@import 'variables';
+
+
+// @import 'module/keyburn';
+@import 'module/button';
+@import 'module/image';
+@import 'module/theme';
+@import 'module/font';
+// @import 'module/icon';
+@import 'module/menu';
+// @import 'module/alert';
+@import 'module/slick';
+
+
+@import 'components/common';
+@import 'components/header';
+// @import 'components/footer';
+
+
+@import 'pages/home';

@@ -1,0 +1,67 @@
+
+
+.btn {
+    @include media-breakpoint-up(sm){
+        padding:14px 47px;
+    }
+    color: $white;
+    &-default {
+        background-color: $default;
+        &:hover {
+            background-color: $black;
+        }
+    }
+
+    &-green {
+        padding-top: 11px 24px;
+        background-color: $green;
+        color: $white;
+        border-radius: 0;
+        &:hover {
+            color: $white;
+            background-color: $default;
+        }
+    }
+
+    &-link {
+        &:after {
+            background:url(../images/svg/arrow-right.svg) right center no-repeat;
+            content:"";
+            display: inline-block;
+            width: 14px;
+            height: 11px;
+        }
+        padding-left:0;
+        padding-top:0;
+        padding-right: 15px;
+        font-size: 14px;
+        &:hover {
+            color: $green;
+        }
+    } // btn link ends here 
+
+    &-outline-secondary {
+        color: $secondary;
+        border-color: $secondary;
+    } // btn outline secondary ends here
+} // btn ends here 
+
+
+
+.wp-block-button__link, .added_to_cart {
+    background-color: $default;
+}
+
+.added_to_cart {
+    
+    border-radius: 1.55em;
+    word-break: break-word;
+    white-space: normal;
+    display: inline-flex;
+    justify-content: center;
+    text-align: center;
+    padding: .5em 1em;
+    font-size: 1em;
+    color: $white !important;
+    margin-left: 0.5em;
+}

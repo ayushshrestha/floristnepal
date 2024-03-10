@@ -1,0 +1,36 @@
+/* Colors */
+
+$default: #C31F26;
+$primary: #612910;
+$secondary: #242A3A;
+$white: #ffffff;
+$black: #000000;
+$darkpurple : #242A3A;
+$bg-cream : #F7F6F0;
+$green : #8AB61E;
+$text-header-info: #BCF5B5;
+// $lightGray: #AFAFAF;
+// $gray: #999999;
+// $border: #E4E4E4;
+// $linkedin: #0e76a8;
+// $black: #000;
+// $brown: #727272;
+// $lighterGray: #F8F8F8;
+
+
+/* button color */
+
+// $theme-colors: ();
+// $theme-colors: map-merge(("default": $default, "primary": $primary, "secondary": $secondary, "success": $success, "info": $info, "warning": $warning, "danger": $danger, "light": $light, "border": $border, "dark": $dark), $theme-colors);
+// $link-color: theme-color("primary");
+// $link-hover-color: darken($link-color, 15%);
+// // border scss
+// @each $color,
+// $value in $theme-colors {
+//     .border-#{$color} {
+//         border-color: $value !important;
+//     }
+// }
+// transition 
+$transitionSpeed: .25s;
+$transitionEasing: cubic-bezier(0.785, 0.135, 0.15, 0.86);

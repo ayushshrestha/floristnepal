@@ -1,0 +1,52 @@
+  .keyburn {
+    //   position: relative;
+      overflow: hidden;
+    img {
+        // position: absolute;
+        // width: 100%;
+        animation: keyburn 40s  ease;
+        /* Add infinite to loop. */
+        
+        -ms-animation: keyburn 40s ease;
+        -webkit-animation: keyburn 40s ease;
+        // -0-animation: keyburn 40s ase;
+        -moz-animation: keyburn 40s ease;
+      }
+  }
+  
+  @-webkit-keyframes keyburn {
+    0% {
+      -webkit-transform-origin: bottom left;
+      -moz-transform-origin: bottom left;
+      -ms-transform-origin: bottom left;
+      -o-transform-origin: bottom left;
+      transform-origin: bottom left;
+      transform: scale(1.0);
+      -ms-transform: scale(1.0);
+      /* IE 9 */
+      
+      -webkit-transform: scale(1.0);
+      /* Safari and Chrome */
+      
+      -o-transform: scale(1.0);
+      /* Opera */
+      
+      -moz-transform: scale(1.0);
+      /* Firefox */
+    }
+    100% {
+      transform: scale(1.2);
+      -ms-transform: scale(1.2);
+      /* IE 9 */
+      
+      -webkit-transform: scale(1.2);
+      /* Safari and Chrome */
+      
+      -o-transform: scale(1.2);
+      /* Opera */
+      
+      -moz-transform: scale(1.2);
+      /* Firefox */
+    }
+  }
+

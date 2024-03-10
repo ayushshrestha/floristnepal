@@ -1,0 +1,45 @@
+
+$font-body :  'Open Sans', sans-serif;
+$font-title : 'Playfair Display', serif;
+
+
+$font-size-base: 0.875rem; // Assumes the browser default, typically `16px`
+$font-size-lg: 40px;
+$font-size-sm: 3.5em;
+$font-size-xs: 24px;
+$font-size-xxs: 14px;
+
+
+$font-normal: 400;
+$font-light: 300;
+$font-bold: 700;
+
+
+.font-normal {
+    font-weight: $font-normal;
+}
+
+body {
+    font-family: $font-body;
+    font-weight: $font-normal;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: $font-bold;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+h5 {
+    font-size: 20px;
+}
+
+h6, .h6 {
+    font-size: 18px;
+}
+
+.font-xs {
+    font-size: $font-size-xxs;  
+}

@@ -1,0 +1,41 @@
+
+body {
+    color: #324148;
+    background-color: #f0f2f5;
+    // font-family: $font-body;
+    // font-weight: $font-normal;
+}
+
+p::-moz-selection{
+    background-color:$default;
+    color:$white;
+}
+p::selection{
+    background-color:$default;
+    color:$white;
+}
+::-moz-selection{
+    background-color:$default;
+    color:$white;
+}
+::selection{
+    background-color:$default;
+    color:$white;
+}
+
+
+a {
+    color: $default;
+    &:hover {
+        color: $primary;
+    }
+}
+
+
+.z-index-1 {
+    z-index: 1;
+}
+
+.bottom-0 {
+    bottom: 0;
+}
